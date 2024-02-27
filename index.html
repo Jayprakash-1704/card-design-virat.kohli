@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card </title>
+    <script src="https://kit.fontawesome.com/bfb4213bb3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        body {
+            background-color: rgb(171, 169, 169);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 50px;
+
+        }
+
+        .card {
+            background-color: white;
+            width: 500px;
+            border-radius: 20px;
+            padding: 0 0 34px 0;
+            margin: 4px;
+
+        }
+
+        .image {
+            padding: 10px;
+
+        }
+
+        .image img {
+            border-radius: 15px;
+
+        }
+
+        .content {
+            padding: 7px 14px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .content h1{
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .content p {
+            color: gray;
+            padding: 0px;
+        }
+
+        .capsules span {
+            border-radius: 20px;
+            background-color: rgb(165, 206, 220);
+            padding: 7px 15px;
+            font-size: 15px;
+            margin: 5px;
+            border: 2px solid rgb(0, 186, 232);
+
+        }
+
+        .capsules {
+            padding: 0px 0px 0 22px;
+        }
+
+        .button button {
+            border-radius: 20px;
+            padding: 9px 9px;
+            font-size: 15px;
+            background-color: rgb(64, 186, 93);
+            font-weight: bold;
+            margin-top: 30px;
+            cursor: pointer;
+            border: none;
+
+
+
+        }
+        .button button:hover{
+            background-color: rgb(255, 255, 255);  
+        }
+        
+
+
+      
+
+
+        .button {
+            text-align: center;
+        }
+        .button button a{
+            text-decoration: none;
+            color:aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="HD.jpg" alt="vk img" width="480px" height="600px">
+        </div>
+        <div class="capsules">
+            <span>#Cricket</span>
+            <span>#World-Cup</span>
+        </div>
+        <div class="content">
+            <h1>Virat Kohli</h1>
+            <p>Virat Kohli is an Indian international cricketer considered by many as one of the greatest batsmen in the
+                history of the game. Kohli plays for (and previously captained) the Royal Challengers Bangalore (RCB) in
+                the Indian Premier League (IPL). He is also a former captain of the Indian cricket team in all three
+                international formats—Test cricket, one-day internationals (ODIs), and Twenty20 internationals
+                (T20I)—making him one of India’s most successful captains.
+            </p>
+        </div>
+        <div class="button">
+            <button>View more  <i class="fa fa-caret-down" aria-hidden="true"></i></a></button>
+        </div>
+    </div>
+</body>
+
+</html>
